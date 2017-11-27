@@ -18,7 +18,7 @@ def stepone(filename,stye):
     new_file.close()
     database=[]
     f1=file('c:\\users\\administrator\\desktop\\temp.txt','r')
-    f2=file('c:\\users\\administrator\\desktop\\test2.txt','a')
+    f2=file('c:\\users\\administrator\\desktop\\result.txt','a')
     while True:
         data=f1.readline()
         if len(data)>0:
