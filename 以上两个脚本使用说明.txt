@@ -1,0 +1,5 @@
+url处理脚本直接运行，运行时根据提示输入需要处理的txt文件名和此次采集的脚本类型，如php、jsp、asp、aspx
+处理结束后将生成一个result.txt文件
+
+
+sqlmap结果处理脚本需要将脚本放在output目录下，直接运行后将在上级目录生成一个available.txt文件，即为存在注入点的url集合
